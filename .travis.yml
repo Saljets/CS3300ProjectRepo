@@ -13,8 +13,8 @@ script:
  
 deploy:
  provider: heroku
- api_key: YOUT_ACCOUNT_API_HERE
- app: YOUR_APP_NAME_HERE
+ api_key: d9efc9d3-c0db-4604-ab7e-bdfba4bc8ca7
+ app: portfolio
  run: "rake db:migrate"
  on:
   all_branches: true
